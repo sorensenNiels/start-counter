@@ -1,0 +1,30 @@
+{
+  "../../../../../~start/default-client-entry.tsx": {
+    "file": "assets/main-Cvs_k3Sh.js",
+    "name": "main",
+    "src": "../../../../../~start/default-client-entry.tsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/routes/counter.tsx?tsr-split=component",
+      "src/routes/index.tsx?tsr-split=component"
+    ]
+  },
+  "src/routes/counter.tsx?tsr-split=component": {
+    "file": "assets/counter-3U8GtTIy.js",
+    "name": "counter",
+    "src": "src/routes/counter.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "../../../../../~start/default-client-entry.tsx"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-BowIncyt.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "../../../../../~start/default-client-entry.tsx"
+    ]
+  }
+}
