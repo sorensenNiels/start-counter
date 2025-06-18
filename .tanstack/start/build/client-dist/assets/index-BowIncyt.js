@@ -1,1 +1,0 @@
-import{u as n,b as r,j as o,c as a,d as s}from"./main-Cvs_k3Sh.js";const u=s("src_routes_index_tsx--updateCount_createServerFn_handler","/_serverFn"),c=a({method:"POST"}).handler(u),p=function(){const e=n(),t=r.useLoaderData();return o.jsxs("button",{onClick:()=>{c({data:1}).then(()=>{e.invalidate()})},children:["Add 1 to ",t,"?"]})};export{p as component};

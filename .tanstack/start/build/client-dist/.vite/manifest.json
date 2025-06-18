@@ -1,16 +1,23 @@
 {
   "../../../../../~start/default-client-entry.tsx": {
-    "file": "assets/main-Cvs_k3Sh.js",
+    "file": "assets/main-D4PuJSAa.js",
     "name": "main",
     "src": "../../../../../~start/default-client-entry.tsx",
     "isEntry": true,
     "dynamicImports": [
       "src/routes/counter.tsx?tsr-split=component",
       "src/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/app-lZZ5Bw2I.css"
     ]
   },
+  "/home/nielsp/projects/tanstack/start-counter/src/styles/app.css": {
+    "file": "assets/app-lZZ5Bw2I.css",
+    "src": "/home/nielsp/projects/tanstack/start-counter/src/styles/app.css"
+  },
   "src/routes/counter.tsx?tsr-split=component": {
-    "file": "assets/counter-3U8GtTIy.js",
+    "file": "assets/counter-BKIH6SY_.js",
     "name": "counter",
     "src": "src/routes/counter.tsx?tsr-split=component",
     "isDynamicEntry": true,
@@ -19,7 +26,7 @@
     ]
   },
   "src/routes/index.tsx?tsr-split=component": {
-    "file": "assets/index-BowIncyt.js",
+    "file": "assets/index-Bfmbfw3c.js",
     "name": "index",
     "src": "src/routes/index.tsx?tsr-split=component",
     "isDynamicEntry": true,

@@ -1,1 +1,0 @@
-import{u as e,R as n,j as a,a as s}from"./main-Cvs_k3Sh.js";const i=function(){const t=e(),o=n.useLoaderData();return a.jsxs("button",{onClick:()=>{s({data:1}).then(()=>{t.invalidate()})},children:["Add 1 to ",o,"?"]})};export{i as component};

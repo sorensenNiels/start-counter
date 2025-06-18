@@ -1,7 +1,7 @@
 import * as fs from 'node:fs'
 import { createServerFn } from '@tanstack/react-start'
 
-const filePath = 'count.txt'
+const filePath = 'data/count.txt'
 
 async function readCount() {
   return parseInt(
