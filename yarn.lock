@@ -6909,6 +6909,7 @@ __metadata:
     vite: "npm:^6.3.5"
     vite-tsconfig-paths: "npm:^5.1.4"
     zod: "npm:^3.25.67"
+    zustand: "npm:5.0.5"
   languageName: unknown
   linkType: soft
 
@@ -7822,5 +7823,26 @@ __metadata:
   version: 3.25.67
   resolution: "zod@npm:3.25.67"
   checksum: 10/0e35432dcca7f053e63f5dd491a87c78abe0d981817547252c3b6d05f0f58788695d1a69724759c6501dff3fd62929be24c9f314a3625179bee889150f7a61fa
+  languageName: node
+  linkType: hard
+
+"zustand@npm:5.0.5":
+  version: 5.0.5
+  resolution: "zustand@npm:5.0.5"
+  peerDependencies:
+    "@types/react": ">=18.0.0"
+    immer: ">=9.0.6"
+    react: ">=18.0.0"
+    use-sync-external-store: ">=1.2.0"
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    immer:
+      optional: true
+    react:
+      optional: true
+    use-sync-external-store:
+      optional: true
+  checksum: 10/ae10e1da74e0abbc669401f30baa1088b779c54a2a9c30f1c62d03a4f4d1b9ac9b60933eca01e3d3871d644d387a289005b45607339f253cd3fadf7e3a390724
   languageName: node
   linkType: hard
