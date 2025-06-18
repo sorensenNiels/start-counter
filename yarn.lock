@@ -2266,6 +2266,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tanstack/query-core@npm:5.80.7":
+  version: 5.80.7
+  resolution: "@tanstack/query-core@npm:5.80.7"
+  checksum: 10/3693c38c2a95207b5027ff5c25b84b335fc2ab20cc247934cbd442cad5ccc9fef15dc5f0b8fd57e50031dd3eddbbd8a90518b79361fc0fe556a1388436715410
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query@npm:5.80.7":
+  version: 5.80.7
+  resolution: "@tanstack/react-query@npm:5.80.7"
+  dependencies:
+    "@tanstack/query-core": "npm:5.80.7"
+  peerDependencies:
+    react: ^18 || ^19
+  checksum: 10/f3de036e7dfa03bd4cb619edc7057ab86fbbf2823a8a76e59409517e03a78c1bd9dbb4f56bf9183ede1a32abd16a4f4120d6f3beb8debd0211373ffe47c5706d
+  languageName: node
+  linkType: hard
+
 "@tanstack/react-router-devtools@npm:^1.121.21":
   version: 1.121.21
   resolution: "@tanstack/react-router-devtools@npm:1.121.21"
@@ -2276,6 +2294,19 @@ __metadata:
     react: ">=18.0.0 || >=19.0.0"
     react-dom: ">=18.0.0 || >=19.0.0"
   checksum: 10/88b2a580427f630180de3aa82d100683fbe1065386cd1439568368db5389c007189f778cde413452545116fc58947951222909cd0c53e5bd601b1a59e6422418
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-router-with-query@npm:1.121.21":
+  version: 1.121.21
+  resolution: "@tanstack/react-router-with-query@npm:1.121.21"
+  peerDependencies:
+    "@tanstack/react-query": ">=5.49.2"
+    "@tanstack/react-router": ">=1.43.2"
+    "@tanstack/router-core": ">=1.114.7"
+    react: ">=18.0.0 || >=19.0.0"
+    react-dom: ">=18.0.0 || >=19.0.0"
+  checksum: 10/66989635f21793abac1cf189cd16ecd40dfa30e3cc0e7966c06144e33225cc7265078a4e7462c6d4248e66bc9413dab7f067e7d580c19c50330777aa2d4ea124
   languageName: node
   linkType: hard
 
@@ -7600,8 +7631,10 @@ __metadata:
     "@radix-ui/react-slot": "npm:1.2.3"
     "@radix-ui/react-tooltip": "npm:1.2.7"
     "@tailwindcss/postcss": "npm:^4.1.10"
+    "@tanstack/react-query": "npm:5.80.7"
     "@tanstack/react-router": "npm:^1.121.21"
     "@tanstack/react-router-devtools": "npm:^1.121.21"
+    "@tanstack/react-router-with-query": "npm:1.121.21"
     "@tanstack/react-start": "npm:^1.121.23"
     "@types/node": "npm:^22.15.32"
     "@types/react": "npm:^19.1.8"

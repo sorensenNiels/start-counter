@@ -1,6 +1,6 @@
 {
   "../../../../../~start/default-client-entry.tsx": {
-    "file": "assets/main-_L45rI8u.js",
+    "file": "assets/main-C8G4xgJ2.js",
     "name": "main",
     "src": "../../../../../~start/default-client-entry.tsx",
     "isEntry": true,
@@ -9,29 +9,38 @@
       "src/routes/index.tsx?tsr-split=component"
     ],
     "assets": [
-      "assets/app-BD5koGIM.css"
+      "assets/app-DYNaOqKF.css"
     ]
   },
   "/home/nielsp/projects/tanstack/start-counter/src/styles/app.css": {
-    "file": "assets/app-BD5koGIM.css",
+    "file": "assets/app-DYNaOqKF.css",
     "src": "/home/nielsp/projects/tanstack/start-counter/src/styles/app.css"
   },
+  "_button-CJ9zkjKc.js": {
+    "file": "assets/button-CJ9zkjKc.js",
+    "name": "button",
+    "imports": [
+      "../../../../../~start/default-client-entry.tsx"
+    ]
+  },
   "src/routes/counter.tsx?tsr-split=component": {
-    "file": "assets/counter-5kqQEi4A.js",
+    "file": "assets/counter-CmQMvvxZ.js",
     "name": "counter",
     "src": "src/routes/counter.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "../../../../../~start/default-client-entry.tsx"
+      "../../../../../~start/default-client-entry.tsx",
+      "_button-CJ9zkjKc.js"
     ]
   },
   "src/routes/index.tsx?tsr-split=component": {
-    "file": "assets/index-EahTtAW2.js",
+    "file": "assets/index-Dz8iTbYH.js",
     "name": "index",
     "src": "src/routes/index.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "../../../../../~start/default-client-entry.tsx"
+      "../../../../../~start/default-client-entry.tsx",
+      "_button-CJ9zkjKc.js"
     ]
   }
 }

@@ -1,38 +1,40 @@
 /// <reference types="vite/client" />
-import * as React from 'react'
+import * as React from "react";
 import {
   HeadContent,
   Outlet,
   Scripts,
-  createRootRoute,
-} from '@tanstack/react-router'
-import { TanStackRouterDevtools } from '@tanstack/react-router-devtools'
-import appCss from '~/styles/app.css?url'
+  createRootRouteWithContext,
+} from "@tanstack/react-router";
+import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
+import appCss from "~/styles/app.css?url";
+import { QueryClient } from "@tanstack/react-query";
 
-export const Route = createRootRoute({
+export const Route = createRootRouteWithContext<{
+  queryClient: QueryClient;
+}>()({
   head: () => ({
     meta: [
       {
-        charSet: 'utf-8',
+        charSet: "utf-8",
       },
       {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1',
+        name: "viewport",
+        content: "width=device-width, initial-scale=1",
       },
       {
-        title: 'TanStack Start Starter',
+        title: "TanStack Start Starter",
       },
     ],
-  links: [
+    links: [
       {
-        rel: 'stylesheet',
+        rel: "stylesheet",
         href: appCss,
       },
     ],
-    
   }),
   component: RootComponent,
-})
+});
 
 function RootComponent() {
   return (
@@ -40,7 +42,7 @@ function RootComponent() {
       <Outlet />
       <TanStackRouterDevtools />
     </RootDocument>
-  )
+  );
 }
 
 function RootDocument({ children }: { children: React.ReactNode }) {
@@ -54,5 +56,5 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <Scripts />
       </body>
     </html>
-  )
+  );
 }
