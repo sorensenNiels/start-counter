@@ -1,6 +1,6 @@
 {
   "../../../../../~start/default-client-entry.tsx": {
-    "file": "assets/main-D4PuJSAa.js",
+    "file": "assets/main-BLVlSSm5.js",
     "name": "main",
     "src": "../../../../../~start/default-client-entry.tsx",
     "isEntry": true,
@@ -9,15 +9,15 @@
       "src/routes/index.tsx?tsr-split=component"
     ],
     "assets": [
-      "assets/app-lZZ5Bw2I.css"
+      "assets/app-DHL3BPcH.css"
     ]
   },
   "/home/nielsp/projects/tanstack/start-counter/src/styles/app.css": {
-    "file": "assets/app-lZZ5Bw2I.css",
+    "file": "assets/app-DHL3BPcH.css",
     "src": "/home/nielsp/projects/tanstack/start-counter/src/styles/app.css"
   },
   "src/routes/counter.tsx?tsr-split=component": {
-    "file": "assets/counter-BKIH6SY_.js",
+    "file": "assets/counter-D-HaEndZ.js",
     "name": "counter",
     "src": "src/routes/counter.tsx?tsr-split=component",
     "isDynamicEntry": true,
@@ -26,7 +26,7 @@
     ]
   },
   "src/routes/index.tsx?tsr-split=component": {
-    "file": "assets/index-Bfmbfw3c.js",
+    "file": "assets/index-DTUluKiC.js",
     "name": "index",
     "src": "src/routes/index.tsx?tsr-split=component",
     "isDynamicEntry": true,
