@@ -2,8 +2,6 @@ import { useRouter, createFileRoute } from "@tanstack/react-router";
 import { Button } from "~/components/ui/button";
 import { getCount, updateCount } from "~/fn/counter";
 
-const filePath = "count.txt";
-
 export const Route = createFileRoute("/counter")({
   component: Home,
   loader: async () => await getCount(),
