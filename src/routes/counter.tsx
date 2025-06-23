@@ -1,10 +1,10 @@
-import { useRouter, createFileRoute } from "@tanstack/react-router";
-import { Button } from "~/components/ui/button";
-import { getCount, updateCount } from "~/fn/counter";
+import { createFileRoute, useRouter } from '@tanstack/react-router';
+import { Button } from '~/components/ui/button';
+import { getCount, updateCount } from '~/fn/counter';
 
-export const Route = createFileRoute("/counter")({
+export const Route = createFileRoute('/counter')({
   component: Home,
-  loader: async () => await getCount(),
+  loader: async () => await getCount()
 });
 
 function Home() {

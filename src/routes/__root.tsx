@@ -1,14 +1,9 @@
 /// <reference types="vite/client" />
-import * as React from "react";
-import {
-  HeadContent,
-  Outlet,
-  Scripts,
-  createRootRouteWithContext,
-} from "@tanstack/react-router";
-import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
-import appCss from "~/styles/app.css?url";
-import { QueryClient } from "@tanstack/react-query";
+import { QueryClient } from '@tanstack/react-query';
+import { HeadContent, Outlet, Scripts, createRootRouteWithContext } from '@tanstack/react-router';
+import { TanStackRouterDevtools } from '@tanstack/react-router-devtools';
+import * as React from 'react';
+import appCss from '~/styles/app.css?url';
 
 export const Route = createRootRouteWithContext<{
   queryClient: QueryClient;
@@ -16,24 +11,24 @@ export const Route = createRootRouteWithContext<{
   head: () => ({
     meta: [
       {
-        charSet: "utf-8",
+        charSet: 'utf-8'
       },
       {
-        name: "viewport",
-        content: "width=device-width, initial-scale=1",
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1'
       },
       {
-        title: "TanStack Start Starter",
-      },
+        title: 'TanStack Start Starter'
+      }
     ],
     links: [
       {
-        rel: "stylesheet",
-        href: appCss,
-      },
-    ],
+        rel: 'stylesheet',
+        href: appCss
+      }
+    ]
   }),
-  component: RootComponent,
+  component: RootComponent
 });
 
 function RootComponent() {

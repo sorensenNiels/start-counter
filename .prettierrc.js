@@ -3,12 +3,12 @@ export default {
   semi: true,
   tabWidth: 2,
   bracketSpacing: true,
-  trailingComma: "none",
+  trailingComma: 'none',
   bracketSameLine: false,
   useTabs: false,
-  endOfLine: "auto",
+  endOfLine: 'auto',
   overrides: [],
   printWidth: 120,
-  arrowParens: "always",
-  plugins: ["prettier-plugin-organize-imports"],
+  arrowParens: 'always',
+  plugins: ['prettier-plugin-organize-imports']
 };
