@@ -1,6 +1,6 @@
 // isString.test.ts or isString.spec.ts
 import { describe, expect, it } from 'vitest';
-import { isString } from './isString.typeguard'; // Adjust the import path if your file is located elsewhere
+import { isString } from './isString';
 
 describe('isString', () => {
   // Test case 1: Valid string primitives
