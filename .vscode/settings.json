@@ -8,5 +8,7 @@
   "files.readonlyInclude": {
     "**/routeTree.gen.ts": true
   },
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "javascript.suggest.autoImports": true,
+  "javascript.preferences.importModuleSpecifier": "relative"
 }
