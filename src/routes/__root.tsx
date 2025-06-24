@@ -3,11 +3,21 @@ import { QueryClient } from '@tanstack/react-query';
 import { HeadContent, Outlet, Scripts, createRootRouteWithContext } from '@tanstack/react-router';
 import { TanStackRouterDevtools } from '@tanstack/react-router-devtools';
 import * as React from 'react';
+import { getClientConfig } from '~/fn/getClientConfig';
 import appCss from '~/styles/app.css?url';
 
 export const Route = createRootRouteWithContext<{
   queryClient: QueryClient;
 }>()({
+  beforeLoad: async () => {
+    console.log('Root route beforeLoad');
+
+    const clientConfig = await getClientConfig();
+    console.log('Client config loaded:', clientConfig);
+    return {
+      clientConfig
+    };
+  },
   head: () => ({
     meta: [
       {
